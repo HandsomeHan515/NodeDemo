@@ -10,7 +10,7 @@ const server = http.createServer((req, res) => {
   user1.age = 23;
   user1.sex = '男';
   user1.skill();
-  res.setHeader('Content-Type', 'text/html');
+  res.setHeader('Content-Type', 'text/html; charset=utf-8');
   res.end('Hello World\n');
 });
 
